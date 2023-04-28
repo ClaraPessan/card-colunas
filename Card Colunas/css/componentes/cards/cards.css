@@ -1,0 +1,45 @@
+.cards {
+    display: flex;
+}
+
+.card {
+    padding: 30px 30px 35px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.2rem;
+}
+
+.card img {
+    width: 50px;
+}
+
+#card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 0 0 6px;
+}
+
+#card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 6px 6px 0;
+}
+
+@media (max-width: 700px) {
+   .cards {
+        flex-direction: column;
+    } 
+
+    #card1 {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 6px 6px 0 0;
+    }
+
+    #card3 {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 6px 6px;
+    }
+}

@@ -1,0 +1,42 @@
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    color: inherit; 
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7rem;
+    max-width: 100px;
+    padding: 10px 0;
+}
+
+button:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#card1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+#card1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card2 button{
+    color: hsl(184, 100%, 22%);
+}
+
+#card2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card3 button{
+    color: hsl(179, 100%, 13%);
+}
+
+#card3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
